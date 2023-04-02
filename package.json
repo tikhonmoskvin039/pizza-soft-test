@@ -18,7 +18,7 @@
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"json-server --watch server/employees.json --port 4000\"",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

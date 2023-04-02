@@ -1,8 +1,6 @@
 import React from "react";
 
 const IsArchiveField = ({ employee, isArchive }) => {
-  console.log("isArchiveINPUT", isArchive.inputValid);
-
   return (
     <div className="form_group">
       <label className="form_label">Is archive ?</label>

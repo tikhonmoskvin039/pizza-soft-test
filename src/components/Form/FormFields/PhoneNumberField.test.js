@@ -51,7 +51,7 @@ describe("PhoneNumberField", () => {
       <PhoneNumberField employee={employee} phoneNumber={invalidPhoneNumber} />
     );
     const errorMessageElement = getByText(
-      'Only digits, from 7 to 12 digits! Can starts with "7"'
+      'Length must be 11 digits! Can starts only with "7"'
     );
     expect(errorMessageElement).toBeInTheDocument();
   });

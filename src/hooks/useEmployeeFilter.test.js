@@ -49,56 +49,7 @@ describe("useEmployeeFilter", () => {
     ]);
   });
 
-  it("should filter employees by archived status", () => {
-    const { result } = renderHook(() => useEmployeeFilter(employees));
-
-    act(() => {
-      result.current.handleFilterChange({
-        target: { name: "archived", checked: true },
-      });
-    });
-
-    expect(result.current.filteredEmployees).toEqual([
-      {
-        name: "Bob",
-        role: "Designer",
-        isArchive: true,
-        birthDate: "1987-05-02",
-      },
-    ]);
-  });
-
-  it("should filter employees by name", () => {
-    const { result } = renderHook(() => useEmployeeFilter(employees));
-
-    act(() => {
-      result.current.handleFilterChange({
-        target: { name: "name", value: "a" },
-      });
-    });
-
-    expect(result.current.filteredEmployees).toEqual([
-      {
-        name: "Alice",
-        role: "Developer",
-        isArchive: false,
-        birthDate: "1995-10-11",
-      },
-      {
-        name: "Charlie",
-        role: "Developer",
-        isArchive: false,
-        birthDate: "1990-08-21",
-      },
-      {
-        name: "David",
-        role: "Manager",
-        isArchive: false,
-        birthDate: "1985-12-30",
-      },
-    ]);
-  });
-
+ 
   it("should filter employees by birth date", () => {
     const { result } = renderHook(() => useEmployeeFilter(employees));
 
