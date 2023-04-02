@@ -1,0 +1,140 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Илья Емельянов",
+      "isArchive": false,
+      "birthday": "12.02.1982",
+      "phone": "+76523461351",
+      "role": "cook"
+    },
+    {
+      "id": 2,
+      "name": "Александр Ларионов",
+      "isArchive": false,
+      "birthday": "26.01.1986",
+      "phone": "+78234403600",
+      "role": "cook"
+    },
+    {
+      "id": 3,
+      "name": "Богдан Давыдов",
+      "isArchive": false,
+      "birthday": "29.11.1990",
+      "phone": "+79715752645",
+      "role": "cook"
+    },
+    {
+      "id": 4,
+      "name": "Олимпиада Макарова",
+      "isArchive": true,
+      "birthday": "06.01.1987",
+      "phone": "+79454472280",
+      "role": "waiter"
+    },
+    {
+      "id": 5,
+      "name": "Алла Котова",
+      "isArchive": true,
+      "birthday": "26.01.1982",
+      "phone": "+79485232964",
+      "role": "cook"
+    },
+    {
+      "id": 6,
+      "name": "Кира Колесникова",
+      "isArchive": true,
+      "birthday": "25.02.1972",
+      "phone": "+79295923637",
+      "role": "driver"
+    },
+    {
+      "id": 7,
+      "name": "Александр Третьяков",
+      "isArchive": false,
+      "birthday": "31.05.1979",
+      "phone": "+78725682912",
+      "role": "driver"
+    },
+    {
+      "id": 8,
+      "name": "Пелагея Морозова",
+      "isArchive": true,
+      "birthday": "11.09.1981",
+      "phone": "+79775213479",
+      "role": "driver"
+    },
+    {
+      "id": 9,
+      "name": "Агафон Громов",
+      "isArchive": true,
+      "birthday": "07.06.1988",
+      "phone": "+78685693159",
+      "role": "driver"
+    },
+    {
+      "id": 10,
+      "name": "Владлен Тетерин",
+      "isArchive": true,
+      "birthday": "20.06.1978",
+      "phone": "+78085922480",
+      "role": "driver"
+    },
+    {
+      "id": 11,
+      "name": "Валерий Пестов",
+      "isArchive": false,
+      "birthday": "20.01.1987",
+      "phone": "+78994032387",
+      "role": "cook"
+    },
+    {
+      "id": 12,
+      "name": "Даниил Кузнецов",
+      "isArchive": true,
+      "birthday": "25.05.1987",
+      "phone": "+79335822673",
+      "role": "waiter"
+    },
+    {
+      "id": 13,
+      "name": "Фёдор Веселов",
+      "isArchive": true,
+      "birthday": "16.12.1972",
+      "phone": "+79515173787",
+      "role": "waiter"
+    },
+    {
+      "id": 14,
+      "name": "Пантелеймон Ефимов",
+      "isArchive": true,
+      "birthday": "17.04.1986",
+      "phone": "+78074923620",
+      "role": "cook"
+    },
+    {
+      "id": 15,
+      "name": "Иванна Калашникова",
+      "isArchive": true,
+      "birthday": "24.03.1982",
+      "phone": "+79274882568",
+      "role": "waiter"
+    },
+    {
+      "id": 16,
+      "name": "Прасковья Кондратьева",
+      "isArchive": true,
+      "birthday": "07.06.1983",
+      "phone": "+78755173873",
+      "role": "cook"
+    },
+    {
+      "id": 17,
+      "name": "Евдокия Филиппова",
+      "isArchive": false,
+      "birthday": "03.12.1994",
+      "phone": "+78774503253",
+      "role": "waiter"
+    }
+  ]
+}
